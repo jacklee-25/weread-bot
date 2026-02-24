@@ -3,7 +3,7 @@ name: Auto Reading Bot
 on: 
   schedule:
     enabled: true
-    cron_expression: "30 6 * * *"    # 每2小时执行一次
+    cron_expression: "30 6 * * *"
     timezone: "Asia/Shanghai"
   
   # 拉取请求触发，用于测试阅读
