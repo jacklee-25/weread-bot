@@ -1,10 +1,8 @@
 name: Auto Reading Bot
 
-on: 
+on:
   schedule:
-    enabled: true
-    cron_expression: "30 6 * * *"
-    timezone: "Asia/Shanghai"
+    - cron: '30 22 * * *'          # 每天 6:30 UTC（对应北京时间 14:30）
   
   # 拉取请求触发，用于测试阅读
   pull_request:
