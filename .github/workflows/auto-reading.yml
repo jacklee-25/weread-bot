@@ -2,7 +2,7 @@ name: Auto Reading Bot
 
 on:
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '30 22 * * *'
   
   pull_request:
     branches: [ main ]
