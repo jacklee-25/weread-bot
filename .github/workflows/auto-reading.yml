@@ -86,7 +86,7 @@ jobs:
         human_simulation:
           enabled: true
           reading_speed_variation: true
-          break_probability: 0.15
+          break_probability: 0.2
           break_duration: "10-20"
           rotate_user_agent: false
 
