@@ -74,11 +74,9 @@ jobs:
             - name: 毛泽东选集
             book_id: 2bb32ff0813ab6ffcg014315
             chapters: []
-
             - name: 曾国藩家书
             book_id: 296325e052cedf2969761f3
-            chapters: []
-            
+            chapters: []            
             - name: 船山遗书
             book_id: 55f325d071cdeb1f55f0fce
             chapters: []
