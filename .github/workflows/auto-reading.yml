@@ -20,7 +20,7 @@ on:
       target_duration:
         description: '阅读时长（分钟，格式：10-20。留空时优先使用仓库 Secret TARGET_DURATION，否则默认 1-2）'
         required: false
-        default: ''
+        default: '65-67'
         type: string
       reading_mode:
         description: '阅读模式'
